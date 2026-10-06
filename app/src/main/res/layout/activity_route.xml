@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121016">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🗺️ Plan Your Journey"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/destinationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter destination"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:textSize="18sp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/findRouteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND DESTINATION"/>
+
+    <TextView
+        android:id="@+id/routeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter a destination"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp"/>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

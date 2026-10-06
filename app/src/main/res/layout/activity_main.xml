@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌧️ Drizzle"
+            android:textSize="34sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Know the rain. Plan the journey."
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Getting location..."
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/weatherButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌦️ CHECK WEATHER"/>
+
+        <Button
+            android:id="@+id/destinationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🗺️ PLAN MY JOURNEY"/>
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👤 PROFILE"/>
+
+    </LinearLayout>
+
+</ScrollView>
